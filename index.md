@@ -128,17 +128,17 @@ This week moves beyond the rectangular format common in statistical datasets, mo
 
 ##### Resources
 - [Lecture slides](week02/MY472-week02-shape.pdf)
-- R examples: [data frames](week02/03-data-frames.rmd), [merging and reshaping](week02/04-merging-reshaping.rmd), and [loops and functions](week02/05-loops-functions.rmd)
+- R examples: [conditionals, loops, and functions](week02/01-conditionals-loops-functions.rmd), [introduction to key tidyverse functions](week02/02-processing-data.rmd), [industrial production dataset](week02/ip.csv), and [industrial production and unemployment dataset](week02/ip_and_unemployment.csv)
 
 ##### Required reading
 * Wickham, Hadley and Garett Grolemund.  2017.  _R for Data Science: Import, Tidy, Transform, Visualize, and Model Data_.  Sebastopol, CA: O'Reilly.  [Part II Wrangle](http://r4ds.had.co.nz/wrangle-intro.html), [Tibbles](http://r4ds.had.co.nz/tibbles.html), [Data Import](http://r4ds.had.co.nz/data-import.html), [Tidy Data](http://r4ds.had.co.nz/tidy-data.html) (Ch. 7-9 of the print edition).
-* The [**reshape2** package](http://had.co.nz/reshape/) for R.
+* The [Tidyverse collection of packages](https://www.tidyverse.org/) for R.
 
 ##### Lab: Reshaping data in R
 
 
 ##### Assignment 1: Data cleaning in R
-- Link to GitHub Classroom available via Moodle on Monday, October 5, 10am
+- Link to GitHub Classroom available via Moodle on Monday, October 5, 2pm
 - Deadline on Friday, October 16, 2pm
 
 
@@ -187,7 +187,7 @@ Continuing from the material covered in Week 3, we will learn the advanced topic
 ##### Lab: Group work on first five weeks
 
 ##### Assignment 2: Web scraping
-- Link to GitHub Classroom available via Moodle on Monday, October 19, 10am
+- Link to GitHub Classroom available via Moodle on Monday, October 19, 2pm
 - Deadline on Friday, October 30, 2pm
 
 
@@ -212,7 +212,7 @@ How to work with Application Programming Interfaces (APIs), which offer develope
 
 
 ##### Assignment 3: APIs
-- Link to GitHub Classroom available via Moodle on Monday, October 26, 10am
+- Link to GitHub Classroom available via Moodle on Monday, October 26, 2pm
 - Deadline on Friday, November 13, 2pm
 
 
@@ -258,7 +258,7 @@ shapes public opinion"](https://journals.sagepub.com/doi/abs/10.1177/20531680156
 - Data visualization with ggplot2
 
 ##### Assignment 4: Data visualization
-- Link to GitHub Classroom available via Moodle on Monday, November 16, 10am
+- Link to GitHub Classroom available via Moodle on Monday, November 16, 2pm
 - Deadline on Friday, November 27, 2pm
 
 
@@ -302,7 +302,7 @@ This week, we will dive deeper into the databases. In particular, this week cove
 - SQL JOINs, subqueries, and BigQuery
 
 ##### Assignment 5: Databases
-- Link to GitHub Classroom available via Moodle on Monday, November 30, 10am
+- Link to GitHub Classroom available via Moodle on Monday, November 30, 2pm
 - Deadline on Friday, December 11, 2pm
 
 
