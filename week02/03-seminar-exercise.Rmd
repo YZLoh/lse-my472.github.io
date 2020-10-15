@@ -8,16 +8,23 @@ output: html_document
 You will use the `tidyverse` package and the dataset called `ip_and_unemployment.csv` that we used in lectures. Start with setting up your workspace:
 
 ```{r setup}
-
-
+#install.packages(tidyverse)
+library(tidyverse)
+ip_and_unemployment_df <- read.csv('ip_and_unemployment.csv')
+ip_and_unemployment <- as_tibble(ip_and_unemployment_df)
+ip_and_unemployment_wide <- ip_and_unemployment %>%
+  pivot_wider(names_from = series, values_from = value)
+head(ip_and_unemployment_wide)
 ```
     
 What are the highest unemployment rates for France and Spain during the time of the sample?  What are the lowest values for monthly percentage changes of industrial production for the two countries? Make sure to delete NA values in only the time series of interest. (_Optional_: can you create a function that would do this for any country?)
 
 ```{r q1}
 # Q1 --------------------------------------------------------------------------
-
-
+ip_and_unemployment_wide %>%
+  filter(country == "france") %>%
+  filter(unemployment == max(unemployment, na.rm = TRUE))%>%
+  select(date,unemployment)
 ```
 
 -----
